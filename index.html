@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de ingreso</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body class="body">
+    <div class="container">
+        <div class="row vh-100">
+            <div class="col-md-6 d-none d-md-block bloque">
+
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <img src="img/índice.png" class="lol">
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center">TRIVAGO</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6"><input type="text" class="form-control" name="Nombre" placeholder="Nombre">
+                    </div>
+                    <div class="col-md-6"><input type="password" class="form-control" name="Apellido"
+                            placeholder="Apellido"></div>
+                    <div class="col-md-6"><input type="password" class="form-control" name="Email" placeholder="Email">
+                    </div>
+                    <div class="col-md-6"><input type="password" class="form-control" name="Teléfono"
+                            placeholder="Teléfono"></div>
+                    <div class="col-md-6"><input type="password" class="form-control" name="Localidad"
+                            placeholder="Localidad"></div>
+                    <div class="col-md-6"><input type="password" class="form-control" name="Provincia"
+                            placeholder="Provincia"></div>
+                    <div class="col-md-6"><input type="password" class="form-control" name="Código Postal"
+                            placeholder="Código Postal"></div>
+                    <form class="was-validated">
+
+
+                        <div class="form-check mb-3">
+                            <input type="checkbox" class="form-input" id="validationFormCheck1" >
+                            <label class="form-check-label" for="validationFormCheck1">Mascotas</label>
+                           
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput" class="form-label">Entrada</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="ejemplo: martes 1 enero 2021">
+                          </div>
+                          <div class="mb-3">
+                            <label for="formGroupExampleInput2" class="form-label">Salida</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="ejemplo: jueves 3 enero 2021">
+                          </div>
+                        
+                        <div class="mb-3"> Habitaciones
+                            <select class="form-select" required aria-label="select example">
+                                <option value="1">Individual</option>
+                                <option value="2">matrimonial</option>
+                                <option value="3">cuatro personas</option>
+                            </select>
+                           
+                        </div>
+                        <div class="mb-3">
+                            <label for="validationTextarea" class="form-label">Dejanos tu comentario</label>
+                            <textarea class="form-control " id="validationTextarea"
+                                placeholder="Ejem: tienen menu vegano?" ></textarea>
+                            
+                        </div>
+                    </form>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 d-grid">
+                        <button class="m-5">Ingresar</button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <p>Si olvido su clave puede ingresarla desde aqui: <a
+                            href="https://campus.cet30.edu.ar/"><b>Mas Informacion</b></a> </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
